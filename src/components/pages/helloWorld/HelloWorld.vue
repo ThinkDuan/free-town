@@ -21,7 +21,7 @@ export default {
         url: '/helloWorld',
         method: 'get'
       }).then((res) => {
-        // that.console.debug("hello===", res);
+        console.log("hello===", res);
         if(res.data.success === true){
           that.name = res.data.data.name;
         }
