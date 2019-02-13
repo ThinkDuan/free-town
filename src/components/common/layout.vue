@@ -20,9 +20,6 @@ export default {
 <style scoped>
 .body{
   font-size: 16px;
-  color: #ffffff;
-  background-color: #00c1de; 
-  background: url(../../assets/backgroundBlockOne.jpg)
 }
 </style>
 
